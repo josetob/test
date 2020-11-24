@@ -4,7 +4,7 @@ pipeline {
     stage('git') {
       agent any
       steps {
-        git(url: 'https://github.com/josetob/test', changelog: true)
+        git(url: 'https://github.com/josetob/test.git', changelog: true)
       }
     }
 
